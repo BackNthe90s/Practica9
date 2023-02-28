@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+.header {
+    background-color:#891c82 ;
+    color: #de0505;
+    padding: 15px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #ebe8eb;
+    color: #de0505;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+.aside {
+    background-color: #ebe8eb;
+    padding: 15px;
+    color: #de0505;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    background-image: url(imagenes/tree-736885_1280.jpg);
+    width: 250px;
+    height: 150px;
+    
+}
+.footer {
+    background-color: #891c82;
+    color: #000080;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .aside {
+        
+    background-image: url(imagenes/Captura.PNG);
+        width: 100%;
+    }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Practica9</h1>
+</div>
+
+<div class="row">
+
+<div class="col-3 menu">
+  <ul>
+    <li><a href="https://backnthe90s.github.io/practica1/">Practica1</a></li>
+    <li><a href="https://backnthe90s.github.io/Practica2/">Practica2</a></li>
+    <li><a href="https://backnthe90s.github.io/Practica3/">Practica3</a></li>
+    <li><a href="https://backnthe90s.github.io/Practica4/">Practica4</a></li>
+    <li><a href="https://backnthe90s.github.io/Practica5/">Practica5</a></li>
+    <li><a href="https://backnthe90s.github.io/Practica6/">Practica6</a></li>
+    <li><a href="https://backnthe90s.github.io/Practica7/">Practica7</a></li>
+    <li><a href="https://backnthe90s.github.io/Practica8/">Practica8</a></li>
+  </ul>
+</div>
+
+<div class="col-6">
+  <h4>CV</h4>
+                  <video src="media/20230220-204353_coLfPuMS.mp4" controls  width="350" height="300"></video>
+        <br>
+        <br>
+        <br>
+        <h2>Direccion</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15100.548936458486!2d-96.93817208232431!3d18.88099211237513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c4e54c6acfd931%3A0xc0fc4c80a51dc447!2sAves%20del%20Para%C3%ADso%20LB%2C%20Villa%20las%20Flores%2C%2094670%20C%C3%B3rdoba%2C%20Ver.!5e0!3m2!1ses-419!2smx!4v1676946976470!5m2!1ses-419!2smx" width="250" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <br>
+        <h1>Datos</h1>
+<br>
+<h1>Datos Personales</h1>
+<br>
+<h2>Nombre Completo: Martinez Rodriguez Rafael</h2>
+<h2>Fecha de nacimiento: 25/07/2001</h2>
+<h2>Lugar de nacimiento: Cordoba veracruz</h2>
+<br><br>
+<h1>Formacion Academica</h1>
+<br>
+<h2>2007-2012:PrimariaFerman</h2>
+<h2>2021-2020:Cbtis47</h2>
+<h2>2020-2024:Instituto Tecnologico De Orizaba</h2>
+<br>
+<h1>Experiencia Laboral</h1>
+<br>
+<h2>2025-2030:PorgramadorDeVideojuegos</h2>
+<h2>2030-2040:Trabajo en Microsoft</h2>
+<h2>2040-2045:Operador de la Base de datos mas grande del mundo</h2>
+</div>
+
+<div class="col-3 right">
+  <div class="aside">
+  
+  </div>
+</div>
+
+</div>
+
+<div class="footer">
+  <p>Cambiar el tama&ntilde;o de la ventana del navegador para ver c&oacute;mo responde el contenido al redimensionamiento.</p>
+</div>
+
+</body>
+</html>
